@@ -1,7 +1,8 @@
 {
   "name": "eric-x402",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
@@ -9,6 +10,9 @@
     "node": ">=18"
   },
   "dependencies": {
+    "@x402/express": "*",
+    "@x402/core": "*",
+    "@x402/evm": "*",
     "express": "^4.18.2"
   }
 }
